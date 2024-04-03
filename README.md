@@ -16,7 +16,7 @@ trunk
 # Important!
 MyHistoryAgeApp does not support IOS servers.
 The program may pause on the first try of opening the app for serveal minutes, even though MyHistoryAgeApp is working correctly.
-if you think your computer is locked up, please be patient and wait for MyHistoryAgeApp to finish the operatio
+if you think your computer is locked up, please be patient and wait for MyHistoryAgeApp to finish the operation
 
 
 # Description of the application:
