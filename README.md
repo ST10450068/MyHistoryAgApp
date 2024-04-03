@@ -1,10 +1,19 @@
 # MyHistoryAgeApp version 1.0 2024/04/12
-Developer: Kabelo Kgosana
-Tags: Comments, Span, Cache
-Requires: API Piexel 26/27/28 Oreo
-Tested up to: 2
-Stable tag: trunk
-
+# Developer: 
+Kabelo Kgosana
+# Tags: 
+Comments, Span, Cache
+#
+# Requires: 
+API Piexel 26/27/28 Oreo
+#
+# Tested up to:
+2
+#
+# Stable tag: 
+trunk
+#
+# Important!
 MyHistoryAgeApp does not support IOS servers.
 The program may pause on the first try of opening the app for serveal minutes, even though MyHistoryAgeApp is working correctly.
 if you think your computer is locked up, please be patient and wait for MyHistoryAgeApp to finish the operatio
