@@ -1,24 +1,14 @@
 # MyHistoryAgeApp version 1.0 2024/04/12
+![OIP](https://github.com/ST10450068/MyHistoryAgApp/assets/165017388/ef2c21e2-6766-45b8-979c-b9dd400934bf)
+![history](https://github.com/ST10450068/MyHistoryAgApp/assets/165017388/82007892-7090-463f-8f85-3bcf7e96134f)
+
+
 # Developer: 
 Kabelo Kgosana
-# Tags: 
-Comments, Span, Cache
 #
-# Requires: 
-API Piexel 26/27/28 Oreo
-#
-# Tested up to:
-2
-#
-# Stable tag: 
-trunk
-#
-
 # Purpose of my application:
 A family friend (Sarah) needed my expertise to develop a special Android mobile application. She is an avid history buff and educator who wants to use technology to inspire young minds. She envisions an Android app that compares the user's age to famous figures from history. She believes that this app will not only be educational but also fun for students.
-The project is useful in terms of education, because the learners (users) will learn about famous historical figures all the most having fun whilst doing it. Anybody can use it, and it keeps learners entertained and keeps them learning about different historical figures. In the end it makes learning easier especially for mentally challlenged kids.
-# Description of the application:
-This is application is for educational purpopes only. This app will take a person's age as an input to the age of different people in history when they passed away. In other terms it will make a comparision from the user's age to famous historical figures.
+The project is useful in terms of education, because the learners (users) will learn about famous historical figures all the most having fun whilst doing it. Anybody can use it, and it keeps learners entertained and keeps them learning about different historical figures. In the end it makes learning easier especially for mentally challlenged kids, as this is application is for educational purpopes only. This app will take a person's age as an input to the age of different people in history when they passed away. In other terms it will make a comparision from the user's age to famous historical figures.
 
 
 # UI Design (User-Interface Design) and Kotlin:
