@@ -1,5 +1,7 @@
 # MyHistoryAgeApp version 1.0 2024/04/12
 ![OIP](https://github.com/ST10450068/MyHistoryAgApp/assets/165017388/ef2c21e2-6766-45b8-979c-b9dd400934bf)
+This image was added as a result to give it the history feel like vibrant.
+It is in the middle because it shows neatness and tidyness.
 ![history](https://github.com/ST10450068/MyHistoryAgApp/assets/165017388/82007892-7090-463f-8f85-3bcf7e96134f)
 
 
