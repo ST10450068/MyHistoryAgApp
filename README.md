@@ -9,7 +9,7 @@ It is in the middle because it shows neatness and tidyness.
 Kabelo Kgosana
 #
 # Purpose of my application:
-The application you're envisioning has great potential to engage students in learning about history in a fun and interactive way. Here's how the app could function:
+The application has great potential to engage students in learning about history in a fun and interactive way. Here's how the app could function:
 
 Age Comparison Feature: The core functionality of the app would involve taking the user's age as input and comparing it to the ages at which famous historical figures passed away. This could be implemented through a simple interface where the user inputs their age, and the app provides a list of historical figures along with the age they were when they died.
 
@@ -29,30 +29,86 @@ Overall, by combining educational content with interactive features and accessib
 
 
 # UI Design (User-Interface Design) and Kotlin (Design consideration):
-Upon starting the program you will be met by a complex background with an image and a text that says "World Age App" at the center top.Under the heading an image will be displayed.Then under the image, you will then put in an age from 20-100. DO NOTE THAT ANY NUMBER/AGE BELOW OR ABOVE 20-100 WILLL BE REGARDED AS INVALID! A message under the inputed number will display: "Invalid Please Put In A Number between 20-100". There'll be a generate button and a clear button provided also. The user-interface is easy to use and simple to understand.
+1. **User Interface (UI)**:
+   - The complex background with the "World Age App" text at the center top sets the stage for the application and gives it a distinct visual identity.
+   - Placing an image under the heading adds visual interest and potentially provides context related to historical figures or the concept of age.
+   - The input field for the user's age ensures user interaction, while the message displayed below it ("Invalid Please Put In A Number between 20-100") provides immediate feedback in case of invalid input, enhancing user experience.
+   - Providing "Generate" and "Clear" buttons makes the application interactive and allows users to easily generate results or reset the input field.
 
-In the kotlin side, four variables have been declared which are the two buttons, one edit text and one text view.
-The problem defined was that the user's inputted age has to match one of the historical figures. So I have done my  research and got the required information such as their age and what they are known for. After acquiring the information, I now had to figure out the solution, which called for problem solving, which helped underpin the solution.
-The underpinned solution that i gathered was using an if loop an arrays. The definition of arrays is a list of data. To simply apply the arrays I used ageMap and under it I put in the list of historical firgues. This works a memory location for the computer so that when a user inputs a numer or age, it quickly scans through the list and finds the correct number or age and information and the display it by the text view. Then comes the if loop. The if loop checks the condition of the user's input and then compares it to check if the corr
+2. **Variables Declaration**:
+   - Declaring variables for the buttons, edit text, and text view in Kotlin is a standard practice for Android app development. These variables will be used to reference UI elements and interact with them programmatically.
+
+3. **Solution Approach**:
+   - Researching historical figures and their ages, along with their notable accomplishments, is crucial for providing meaningful results to the user.
+   - Utilizing an array or map to store the historical figures' ages and associated information is an efficient way to organize and access this data within the application.
+   - The `ageMap` you mentioned serves as a data structure for quickly retrieving information based on the user's input.
+   - Implementing an if loop to validate the user's input and compare it with the ages stored in the array or map ensures that the application provides accurate and relevant results.
+   - If the user's input matches one of the ages in the array or map, the corresponding information about the historical figure can be displayed in the text view.
+
+4. **Testing and Refinement**:
+   - After implementing the solution, thorough testing is essential to ensure that the application functions as expected under various scenarios, including valid and invalid inputs.
+   - Refinement may involve improving the user interface, optimizing code efficiency, handling edge cases, and incorporating user feedback to enhance overall usability and performance.
+
+By following this approach, you can develop a robust and user-friendly "World Age App" that effectively matches user input with historical figures and provides relevant information based on their ages.
 
 # Utilisation of GitHub and GitHub actions.
-GitHub Actions make it easy to automate all your software workflows. Github Actions let you build, test, and deploy your code right from GitHub. You can also assign code reviews, manage branches, and triage issues the way you want with actions.
+GitHub and GitHub Actions have revolutionized the way software development workflows are managed and executed. Here's an expanded explanation of their utilization:
 
+1. **Automating Software Workflows**: GitHub Actions provides a powerful platform for automating various aspects of software development workflows. This includes tasks such as building, testing, and deploying code. By defining workflows in YAML files within your repository, you can specify the steps required to accomplish these tasks. This automation reduces manual intervention, streamlines processes, and ensures consistency across different environments.
+
+2. **Building and Testing Code**: With GitHub Actions, you can set up automated build and test processes for your codebase. This includes compiling code, running unit tests, performing integration tests, and checking code quality using linters and static code analysis tools. By automating these tasks, developers can quickly identify and fix issues, leading to faster development cycles and improved code reliability.
+
+3. **Continuous Integration (CI)**: GitHub Actions enables continuous integration by automatically triggering workflows whenever new code is pushed to a repository or when pull requests are submitted. This allows teams to catch bugs and integration issues early in the development cycle, as changes are validated against the existing codebase in a controlled environment.
+
+4. **Continuous Deployment (CD)**: In addition to CI, GitHub Actions facilitates continuous deployment by automating the process of deploying code to production or staging environments. By defining deployment workflows, developers can automatically deploy applications, update documentation, and perform other release-related tasks with confidence, knowing that the process is repeatable and reliable.
+
+5. **Custom Actions**: GitHub Actions allows you to create custom actions to extend the platform's capabilities. These reusable actions encapsulate specific tasks or workflows and can be easily integrated into your existing workflows. Whether it's interacting with external services, sending notifications, or performing specialized tasks, custom actions enable developers to tailor automation to their specific requirements.
+
+6. **Code Reviews and Issue Triage**: Beyond automation, GitHub Actions can assist in managing code reviews and issue triage. Workflows can be configured to automatically assign code reviewers based on predefined criteria, ensuring that pull requests are promptly reviewed by the appropriate team members. Additionally, actions can help triage issues by labeling, assigning, or categorizing them based on their attributes or severity, improving the efficiency of issue resolution processes.
+
+7. **Branch Management**: GitHub Actions can be used to enforce branch management policies, such as requiring certain checks to pass before merging changes into a protected branch. This helps maintain code quality and stability by ensuring that only verified changes are merged into critical branches like main or production.
+
+Overall, GitHub Actions empowers development teams to automate, customize, and streamline their software development workflows, resulting in increased productivity, code quality, and collaboration across the entire development lifecycle.
 # Important!
-MyHistoryAgeApp does not support IOS servers.
-The program may pause on the first try of opening the app for serveal minutes, even though MyHistoryAgeApp is working correctly.
-if you think your computer is locked up, please be patient and wait for MyHistoryAgeApp to finish the operation
 
+It's important to communicate clearly to users any limitations or potential issues they may encounter when using the MyHistoryAgeApp.
 
+Non-support for iOS Servers:
+MyHistoryAgeApp is specifically designed and developed for Android devices and does not support iOS servers. This means that users attempting to run the app on iOS devices or servers will encounter compatibility issues.
+It's essential to inform users of this limitation upfront to manage their expectations and prevent frustration or confusion.
+Initial App Launch Delay:
+
+Upon the first launch of the MyHistoryAgeApp, users may experience a delay of several minutes before the application becomes responsive. This delay occurs as the app initializes and performs necessary operations, such as loading data or setting up resources.
+It's crucial to reassure users that this delay is normal and part of the app's initialization process. They should be advised to be patient and wait for the app to finish its operations.
+To avoid confusion or concern, consider displaying a loading indicator or progress bar during this initialization phase to indicate to users that the app is still running.
+Patience during App Initialization:
+
+If users perceive that their device has become unresponsive or locked up during the initialization phase, it's essential to encourage them to remain patient and wait for the MyHistoryAgeApp to complete its operations.
+Providing clear instructions or a message informing users about the initialization process and the potential delay can help manage their expectations and alleviate any concerns they may have.
+Emphasize that the app is not malfunctioning or causing any harm to their device but rather undergoing necessary setup procedures to ensure proper functionality.
+User Support and Assistance:
+ST10450068.edu.za
 # Installing under Windows
-When installing MyHistoryAgeApp onto your device it is recommended that you install to a API 26.
-However installing it on a API 27 or higher is also fine, the disadvantage is that it will require more time.
+MyHistoryAgeApp is designed to function optimally with devices running on API level 26. Installing the app on devices with this API level ensures compatibility and optimal performance.
+API level 26 corresponds to Android 8.0 (Oreo), which offers a balance between features and performance.
+Compatibility with Higher API Levels:
+
+While API level 26 is recommended, installing MyHistoryAgeApp on devices with API level 27 or higher is also supported. These higher API levels may offer additional features and improvements, but they may require more time for installation and potentially consume more resources.
+API levels 27 and above correspond to later versions of the Android operating system, such as Android 8.1 (Oreo), Android 9 (Pie), and beyond.
+Time Consideration:
+
+The installation process on devices with API level 27 or higher may take longer due to the additional features and optimizations associated with these newer Android versions.
 
 
 # If you are struggling:
 click on the link for my Youtube video below:
 
-# Refrences:
+# Refrences: 
+ GitHub Documentation.  
+(2022) tools4dev. Available at: https://tools4dev.org/resources/how-to-design-a-new-program/ (Accessed: 2024/04/05).
+ What is GitHub and how to use it?. (Dec 14, 2023). Title of the page. Available at: (https://www.geeksforgeeks.org/what-is-github-and-how-to-use-it/)] (Accessed: 2024/04/05).
+10 Fundamental UI Design Principles You Need to Know. (December 06, 2021).. Available at: [[URL](https://dribbble.com/resources/ui-design-principles)] (Accessed: 2024/04/05).
+
 
 # How to reach us:
 Email: ST10450068.edu.za
